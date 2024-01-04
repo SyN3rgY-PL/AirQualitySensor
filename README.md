@@ -1,10 +1,10 @@
 # AirQualitySensor
 
-## Opis Kodu
+## Opis kodu
 
 Projekt `AirQualitySensor` to aplikacja Python służąca do monitorowania jakości powietrza przy użyciu czujników PM i BME280. Zapewnia on zbieranie, przetwarzanie i dystrybucję danych o jakości powietrza.
 
-## Kluczowe Elementy Kodu
+## Kluczowe elementy kodu
 
 ### Klasa `AirQualitySensor`
 
@@ -16,7 +16,7 @@ Główna klasa skryptu, która zarządza procesem pomiaru, przetwarzania i dystr
 - Zarządzanie komendami i odczytem danych z czujnika PM.
 - Ładowanie konfiguracji, zapis i wysyłka danych.
 
-### Mechanizm Kalibracji BME280
+### Mechanizm kalibracji BME280
 
 Kalibracja czujnika BME280 jest kluczowa dla uzyskania dokładnych pomiarów ciśnienia atmosferycznego. Skrypt uwzględnia kalibrację wysokości nad poziomem morza, co pozwala na precyzyjne dostosowanie ciśnienia do lokalnych warunków. Użytkownik powinien dostosować parametry kalibracji do swojej lokalizacji, aby zapewnić najwyższą dokładność pomiarów.
 
@@ -24,7 +24,7 @@ Kalibracja czujnika BME280 jest kluczowa dla uzyskania dokładnych pomiarów ci�
 
 Metoda `run_measurement_loop` zarządza cyklicznym procesem pomiarów, zapewniając odczyt, przetwarzanie i dystrybucję danych.
 
-## Bezpieczeństwo i Utrzymanie
+## Bezpieczeństwo i utrzymanie
 
 Zalecane jest regularne aktualizowanie zależności, monitorowanie logów i sprawdzanie stanu czujników, oraz regularne tworzenie backupów.
 
